@@ -1,0 +1,30 @@
+Django==1.6
+South
+django-extensions==0.9
+ipython
+bleach==1.2.1
+Pillow==2.0.0
+django-suit==0.2.2
+
+Fabric
+
+django-storages==1.1.6
+boto==2.8.0
+psycopg2==2.4.6
+
+django-mail-factory==0.5
+
+-e git://github.com/playfire/django-append-url-to-sql.git#egg=append_url_to_sql-0.1
+-e git://github.com/disqus/django-db-utils.git#egg=dbutils-0.1
+-e git://github.com/jbalogh/django-cache-machine.git#egg=caching-0.7.1
+
+raven==3.3.4
+dogslow==0.9.7
+django-app-metrics==0.9.0
+
+django-hosts==0.5
+django-secure==0.1.2
+django-model-utils
+django-braces==1.0.0
+
+django-pipeline

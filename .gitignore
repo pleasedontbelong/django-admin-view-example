@@ -1,0 +1,14 @@
+*.log
+*.pot
+*.pyc
+*.swp
+local_settings.py
+local.py
+.DS_Store
+.ven/
+.coverage
+.ropeproject/
+htmlcov/
+.sass-cache/
+Gemfile.lock
+node_modules

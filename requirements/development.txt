@@ -1,0 +1,18 @@
+-r base.txt
+
+## Install gunicorn for development too
+gunicorn
+
+## Easy debugging
+django-debug-toolbar
+
+## Test runner utilities
+django-test-utils
+django-test-extensions
+django-devserver
+flake8
+nose
+glue
+-e git://github.com/jbalogh/django-nose.git#egg=django-nose
+coverage
+Werkzeug
