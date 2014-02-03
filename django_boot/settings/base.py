@@ -24,7 +24,7 @@ path[0:0] = [
 # See https://docs.djangoproject.com/en/1.6/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'h_576od1kr201z-3l878)w+vdgr4dxr7#7p66+t+h%t8$0h*yo'
+SECRET_KEY = 'h_576od1kr201z-3l878)w+jdgr4dxr7#7p66+t+h%t8$0h*yo'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -50,10 +50,8 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'django_extensions',
     'pipeline',
-    'rest_framework',
-    'south',
-    'messages',
     'base',
+    'south'
 )
 
 MIDDLEWARE_CLASSES = (
