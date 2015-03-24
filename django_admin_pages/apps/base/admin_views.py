@@ -12,4 +12,4 @@ class InactiveUsersView(ChangeList):
     def get_queryset(self, request):
         qs = super(InactiveUsersView, self).get_queryset(request)
         # filter inactive and admin users
-        return qs.exclude(is_staff=False).exclude(is_active=False).exclude(is_superuser=False)
+        return qs.filter(is_staff=False, is_active=False, is_superuser=False)
