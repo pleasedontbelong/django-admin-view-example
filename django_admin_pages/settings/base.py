@@ -50,8 +50,7 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'django_extensions',
     'pipeline',
-    'base',
-    'south'
+    'base'
 )
 
 MIDDLEWARE_CLASSES = (
@@ -65,9 +64,9 @@ MIDDLEWARE_CLASSES = (
     'pipeline.middleware.MinifyHTMLMiddleware',
 )
 
-ROOT_URLCONF = 'django_boot.urls'
+ROOT_URLCONF = 'django_admin_pages.urls'
 
-WSGI_APPLICATION = 'django_boot.wsgi.application'
+WSGI_APPLICATION = 'django_admin_pages.wsgi.application'
 
 # Internationalization
 # https://docs.djangoproject.com/en/1.6/topics/i18n/

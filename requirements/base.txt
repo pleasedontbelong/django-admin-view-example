@@ -1,18 +1,9 @@
-Django==1.6
-South
-django-extensions==0.9
+Django==1.7
+django-extensions
 ipython
 bleach==1.2.1
-Pillow==2.0.0
-django-suit==0.2.2
 
-Fabric
-
-django-storages==1.1.6
-boto==2.8.0
 psycopg2==2.4.6
-
-django-mail-factory==0.5
 
 -e git://github.com/playfire/django-append-url-to-sql.git#egg=append_url_to_sql-0.1
 -e git://github.com/disqus/django-db-utils.git#egg=dbutils-0.1
